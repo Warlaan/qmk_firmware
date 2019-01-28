@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
  * |      | Shift|   {  |   ;  |  '   |   P  |   Y  |      |   B  |   M  |   ,  |   .  |   J  | Shift|      |
  * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
- * | LCtrl| Alt  | Win  | Menu | Mouse| Mod4 |Space |      |Space | Mod3 | RCtrl|      |  Win | Alt  | RCtrl|
+ * | LCtrl| Alt  | Win  | Menu | Mouse| Mod4 |Space |      |Space | Mod3 | RCtrl| RAlt |  Win | Alt  | RCtrl|
  * `------------------------------------------------'      `------------------------------------------------'
  */
   [_NEO] = LAYOUT_kc(
@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
          ,LSFT,LBRC,SCLN,QUOT, P  , Y  ,      B  , M  ,COMM,DOT , J  ,RSFT,    ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     LCTL,LALT,LGUI, APP,MOUS,MOD4,SPC ,     SPC ,MOD3,RCTL, APP,RGUI,RALT,RCTL
+     LCTL,LALT,LGUI, APP,MOUS,MOD4,SPC ,     SPC ,MOD3,RCTL,RALT,RGUI,LALT,RCTL
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
   ),
 
