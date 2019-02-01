@@ -43,6 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_MAX_SPEED    4
 #define MOUSEKEY_TIME_TO_MAX  4
 
-#define AUTO_SHIFT_TIMEOUT 70
+#define AUTO_SHIFT_TIMEOUT 50
+//#define AUTO_SHIFT_SETUP
 
 #endif
